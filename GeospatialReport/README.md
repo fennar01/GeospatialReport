@@ -93,6 +93,10 @@ Tests are automatically run in GitHub Actions CI on every push and pull request.
 See [`output/sample_output_map.html`](output/sample_output_map.html) for a sample interactive map. 
 See [`output/vegetation_mask_pred.tif`](output/vegetation_mask_pred.tif) for a sample exported vegetation mask GeoTIFF.
 
+## Example Output Gallery
+
+Contribute your screenshots, interactive maps, and exported files here! Visual examples help others quickly understand the pipeline's results and impact. Add images to the `docs/` folder and link them here, or share links to exported GeoTIFF, GeoJSON, or Shapefile outputs.
+
 ## Model Training and Inference
 The notebook demonstrates how to train a Random Forest classifier using NDVI and the blue band to predict vegetation. The model is saved and can be used for inference on new data. See the notebook section "Train Random Forest Classifier for Vegetation Detection" for details. 
 
