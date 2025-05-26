@@ -125,4 +125,12 @@ Visual examples help users and reviewers quickly understand the results. Please 
 
 ![Example NDVI Map](docs/example_ndvi_map.png)
 
-If you generate a new output, save a screenshot in the `docs/` folder and update this section. Overlays of vegetation mask on true color composites are especially helpful if you have the required bands. 
+If you generate a new output, save a screenshot in the `docs/` folder and update this section. Overlays of vegetation mask on true color composites are especially helpful if you have the required bands.
+
+## Citing This Work
+
+If you use this pipeline in your research or projects, please cite it as:
+
+> Fennar Ralston et al., GeospatialReport: Sentinel-2 Plant Detection Pipeline, https://github.com/fennar01/GeospatialReport
+
+Or use the repository's citation file if available. 
