@@ -133,4 +133,8 @@ If you use this pipeline in your research or projects, please cite it as:
 
 > Fennar Ralston et al., GeospatialReport: Sentinel-2 Plant Detection Pipeline, https://github.com/fennar01/GeospatialReport
 
-Or use the repository's citation file if available. 
+Or use the repository's citation file if available.
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. 
