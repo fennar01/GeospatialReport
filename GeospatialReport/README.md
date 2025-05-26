@@ -1,5 +1,11 @@
 An open-source pipeline for Sentinel-2 geospatial machine learning: from raw satellite imagery to model predictions and interactive maps. Supports batch and notebook workflows, multiple export formats, and both classical ML and deep learning (U-Net, coming soon).
 
+![Project Status](https://img.shields.io/badge/status-active--development-brightgreen)
+
+## Project Status
+
+This project is in active development. Feedback, issues, and contributions are welcome!
+
 # Sentinel-2 Plant Detection using U-Net
 
 ## Objective
