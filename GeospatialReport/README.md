@@ -95,7 +95,7 @@ Automated tests are provided for core preprocessing functions (NDVI, cloud maski
 pytest
 ```
 
-Tests are automatically run in GitHub Actions CI on every push and pull request.
+> **Note:** Automated CI/CD is currently disabled for this repository. Run tests locally before submitting changes.
 
 ## Example Output
 See [`output/sample_output_map.html`](output/sample_output_map.html) for a sample interactive map. 
@@ -125,7 +125,7 @@ Contributions are welcome! To get started:
 - If you add a new feature, please add a test for it in `tests/`.
 - Open a pull request with a clear description of your changes.
 
-Continuous Integration (CI) is set up via GitHub Actions and will run tests and notebook execution on every push and pull request. 
+> **Note:** Automated CI/CD is currently disabled. Please ensure your code passes all tests locally before submitting a pull request.
 
 ## Example Screenshots
 
