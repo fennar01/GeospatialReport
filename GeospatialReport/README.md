@@ -56,7 +56,7 @@ This will automatically find all tiles with the required bands, run the pipeline
 
 ## Export Formats
 
-Vegetation masks are exported as GeoTIFF and GeoJSON files. Run the batch processing script to generate both formats for each tile. Support for additional formats such as shapefile is planned. Contributions to add new export formats are welcome!
+Vegetation masks are exported as GeoTIFF, GeoJSON, and Shapefile. Run the batch processing script to generate all formats for each tile. Contributions to add new export formats are welcome!
 
 ## Example Output
 See [`output/sample_output_map.html`](output/sample_output_map.html) for a sample interactive map. 
