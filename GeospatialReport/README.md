@@ -137,4 +137,8 @@ Or use the repository's citation file if available.
 
 ## License
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. 
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions, feedback, or collaboration, please open an issue on GitHub or contact Fennar Ralston via the email address listed in the repository profile. 
