@@ -64,6 +64,12 @@ This will automatically find all tiles with the required bands, run the pipeline
 
 Vegetation masks are exported as GeoTIFF, GeoJSON, and Shapefile. Run the batch processing script to generate all formats for each tile. Contributions to add new export formats are welcome!
 
+## Advanced Models: U-Net Roadmap
+
+We plan to integrate a U-Net deep learning model for semantic segmentation of Sentinel-2 imagery. This will enable more accurate and flexible vegetation and land cover mapping. The U-Net model will be available as an alternative to the Random Forest classifier, and will be integrated into the pipeline for both notebook and batch processing workflows.
+
+Contributions to the U-Net implementation, training scripts, and inference integration are welcome!
+
 ## Example Output
 See [`output/sample_output_map.html`](output/sample_output_map.html) for a sample interactive map. 
 See [`output/vegetation_mask_pred.tif`](output/vegetation_mask_pred.tif) for a sample exported vegetation mask GeoTIFF.
