@@ -44,6 +44,16 @@ python src/data_download.py
 
 This will download a sample Red band (B04) as a JP2 file into the `data/` directory. You can modify the script to fetch other bands or tiles as needed.
 
+## Batch Processing
+
+To process all Sentinel-2 tiles in the `data/` directory, use the batch processing script:
+
+```bash
+python src/batch_process.py
+```
+
+This will automatically find all tiles with the required bands, run the pipeline, and export vegetation masks to the `output/` directory with tile-specific filenames.
+
 ## Example Output
 See [`output/sample_output_map.html`](output/sample_output_map.html) for a sample interactive map. 
 See [`output/vegetation_mask_pred.tif`](output/vegetation_mask_pred.tif) for a sample exported vegetation mask GeoTIFF.
