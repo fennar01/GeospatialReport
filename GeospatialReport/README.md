@@ -70,6 +70,15 @@ We plan to integrate a U-Net deep learning model for semantic segmentation of Se
 
 Contributions to the U-Net implementation, training scripts, and inference integration are welcome!
 
+## How to Use U-Net (Coming Soon)
+
+Once implemented, you will be able to:
+- Train a U-Net model on your own Sentinel-2 data and masks
+- Run inference with a trained U-Net model for semantic segmentation
+- Use U-Net in both the notebook and batch processing workflows (as an alternative to Random Forest)
+
+Watch this repository for updates as U-Net support is added!
+
 ## Example Output
 See [`output/sample_output_map.html`](output/sample_output_map.html) for a sample interactive map. 
 See [`output/vegetation_mask_pred.tif`](output/vegetation_mask_pred.tif) for a sample exported vegetation mask GeoTIFF.
