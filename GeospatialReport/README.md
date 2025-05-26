@@ -157,4 +157,18 @@ For questions, feedback, or collaboration, please open an issue on GitHub or con
 - Export formats: GeoTIFF, GeoJSON, Shapefile now supported
 - U-Net deep learning model roadmap and scaffolding added
 - CI/CD (GitHub Actions) disabled; tests must be run locally
-- Documentation and contribution guidelines improved 
+- Documentation and contribution guidelines improved
+
+## Frequently Asked Questions (FAQ)
+
+**Q: Where can I get Sentinel-2 data for this pipeline?**
+A: Download from the [Copernicus Open Access Hub](https://scihub.copernicus.eu/) or [AWS Open Data Registry](https://registry.opendata.aws/sentinel-2/). See `data/README.txt` for details.
+
+**Q: How do I run the pipeline on my own data?**
+A: Place your Sentinel-2 bands in the `data/` directory (or specify with `--data_dir`), then run the batch script or notebook as described above.
+
+**Q: Can I use this for other land cover types?**
+A: Yes! You can adapt the pipeline and model for other segmentation tasks by providing appropriate training data and labels.
+
+**Q: How do I contribute or report a bug?**
+A: Open an issue or pull request on GitHub. See the "How to Contribute" section for details. 
