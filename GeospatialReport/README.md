@@ -54,6 +54,10 @@ python src/batch_process.py
 
 This will automatically find all tiles with the required bands, run the pipeline, and export vegetation masks to the `output/` directory with tile-specific filenames.
 
+## Export Formats
+
+Vegetation masks are exported as GeoTIFF and GeoJSON files. Run the batch processing script to generate both formats for each tile. Support for additional formats such as shapefile is planned. Contributions to add new export formats are welcome!
+
 ## Example Output
 See [`output/sample_output_map.html`](output/sample_output_map.html) for a sample interactive map. 
 See [`output/vegetation_mask_pred.tif`](output/vegetation_mask_pred.tif) for a sample exported vegetation mask GeoTIFF.

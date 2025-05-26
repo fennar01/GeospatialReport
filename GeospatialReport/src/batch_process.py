@@ -13,7 +13,7 @@ import glob
 import numpy as np
 import rasterio
 from src.preprocessing import calculate_ndvi, basic_cloud_mask, qa60_cloud_mask
-from src.utils import export_mask_as_geotiff
+from src.utils import export_mask_as_geotiff, export_mask_as_geojson
 
 def find_band(tile_prefix, band):
     # Looks for files like tileprefix_B02.tif or tileprefix_B02.jp2
@@ -51,7 +51,9 @@ def process_tile(tile_prefix):
     profile_out.update(dtype='uint8', count=1)
     out_path = f"output/{tile_prefix}_vegetation_mask.tif"
     export_mask_as_geotiff(veg_mask, profile_out, out_path)
-    print(f"Processed {tile_prefix}, output: {out_path}")
+    geojson_path = f"output/{tile_prefix}_vegetation_mask.geojson"
+    export_mask_as_geojson(veg_mask, profile_out, geojson_path)
+    print(f"Processed {tile_prefix}, outputs: {out_path}, {geojson_path}")
 
 def main():
     os.makedirs('output', exist_ok=True)
