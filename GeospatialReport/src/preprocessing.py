@@ -14,6 +14,15 @@ def basic_cloud_mask(blue_band, threshold=0.2):
     blue_scaled = blue_band / blue_band.max()
     return blue_scaled <= threshold
 
+def qa60_cloud_mask(qa60_band):
+    """
+    Generate a cloud mask from Sentinel-2 QA60 band.
+    Bits 10 or 11 set = cloud. Returns boolean mask: True = clear, False = cloud.
+    """
+    # Bits 10 and 11: opaque/cloud, cirrus/cloud
+    cloud_bits = (1 << 10) | (1 << 11)
+    return (qa60_band & cloud_bits) == 0
+
 def cloud_mask_stub(band):
     """Stub for cloud masking. Returns a mask of all True (no clouds)."""
     import numpy as np
