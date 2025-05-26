@@ -7,7 +7,7 @@ A reproducible pipeline for detecting plant cover from raw Sentinel-2 satellite 
 This project uses a sample Sentinel-2 tile. Download a sample from the [Copernicus Open Access Hub](https://scihub.copernicus.eu/) or [AWS Open Data Registry](https://registry.opendata.aws/sentinel-2/). See `data/README.txt` for details.
 
 ## Method
-- Preprocess Sentinel-2 imagery (cloud masking, band selection, NDVI)
+- Preprocess Sentinel-2 imagery (cloud masking: QA60 band if available, otherwise blue band; band selection, NDVI)
 - Train or load a U-Net (or Random Forest) model for segmentation
 - Apply the model to the image
 - Visualize results on a map (Folium)
@@ -24,7 +24,7 @@ jupyter notebook notebooks/sentinel2_pipeline.ipynb
 This repository is public and aims to provide a full, reproducible geospatial ML pipeline. Planned and in-progress features:
 
 1. Data download helper script (fetch Sentinel-2 samples)
-2. Cloud masking (basic and advanced options)
+2. Cloud masking (QA60 band support if available, fallback to blue band)
 3. NDVI calculation and visualization
 4. Model training (Random Forest and U-Net options)
 5. Inference on new tiles
