@@ -69,3 +69,11 @@ Contributions are welcome! To get started:
 - Open a pull request with a clear description of your changes.
 
 Continuous Integration (CI) is set up via GitHub Actions and will run tests and notebook execution on every push and pull request. 
+
+## Example Screenshots
+
+Visual examples help users and reviewers quickly understand the results. Please add screenshots of your notebook outputs here:
+
+![Example NDVI Map](docs/example_ndvi_map.png)
+
+If you generate a new output, save a screenshot in the `docs/` folder and update this section. Overlays of vegetation mask on true color composites are especially helpful if you have the required bands. 
