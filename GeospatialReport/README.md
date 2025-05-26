@@ -43,3 +43,19 @@ The notebook demonstrates how to train a Random Forest classifier using NDVI and
 
 ## Testing and Continuous Integration
 Automated tests for core functions (NDVI, cloud masking, model inference) and a GitHub Actions workflow to run tests and check notebook execution are planned. See the Pipeline Roadmap for progress. 
+
+## How to Contribute
+
+Contributions are welcome! To get started:
+- Fork the repository and create a new branch for your feature or bugfix.
+- Add or update code in the appropriate module:
+  - `src/preprocessing.py`: Preprocessing functions (NDVI, cloud masking, etc.)
+  - `src/train_model.py`: Model training, saving, loading, and inference
+  - `src/utils.py`: Utility functions (e.g., exporting GeoTIFFs)
+  - `notebooks/sentinel2_pipeline.ipynb`: Main pipeline notebook
+  - `tests/`: Automated tests for core functions
+- Run `pytest` to ensure all tests pass.
+- If you add a new feature, please add a test for it in `tests/`.
+- Open a pull request with a clear description of your changes.
+
+Continuous Integration (CI) is set up via GitHub Actions and will run tests and notebook execution on every push and pull request. 
