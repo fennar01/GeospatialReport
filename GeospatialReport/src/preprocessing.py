@@ -1,6 +1,20 @@
 # preprocessing.py
 # Functions for Sentinel-2 data preprocessing (cloud masking, band selection, NDVI, etc.)
 
-# Example placeholder function
 def calculate_ndvi(nir, red):
-    return (nir - red) / (nir + red + 1e-6) 
+    """Calculate NDVI from NIR and Red bands."""
+    return (nir - red) / (nir + red + 1e-6)
+
+def basic_cloud_mask(blue_band, threshold=0.2):
+    """
+    Basic cloud mask using the blue band (B02).
+    Pixels with blue reflectance > threshold (scaled 0-1) are masked as clouds.
+    Returns a boolean mask: True = clear, False = cloud.
+    """
+    blue_scaled = blue_band / blue_band.max()
+    return blue_scaled <= threshold
+
+def cloud_mask_stub(band):
+    """Stub for cloud masking. Returns a mask of all True (no clouds)."""
+    import numpy as np
+    return np.ones_like(band, dtype=bool) 

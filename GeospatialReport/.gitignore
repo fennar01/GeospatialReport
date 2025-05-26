@@ -12,4 +12,22 @@ __pycache__/
 
 # Output files
 output/*
+!output/sample_output_map.html
+!output/rf_veg_model.joblib
+!output/vegetation_mask_pred.tif
+
+# Ignore data files
+data/*
+!data/README.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Output files
+output/*
 !output/sample_output_map.html 
