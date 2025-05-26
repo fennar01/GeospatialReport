@@ -34,6 +34,16 @@ This repository is public and aims to provide a full, reproducible geospatial ML
 9. GitHub Actions CI for notebook and code
 10. Example outputs and screenshots in README
 
+## Data Download Helper
+
+A script is provided to help you download a sample Sentinel-2 band from AWS Open Data for demonstration purposes. Run:
+
+```bash
+python src/data_download.py
+```
+
+This will download a sample Red band (B04) as a JP2 file into the `data/` directory. You can modify the script to fetch other bands or tiles as needed.
+
 ## Example Output
 See [`output/sample_output_map.html`](output/sample_output_map.html) for a sample interactive map. 
 See [`output/vegetation_mask_pred.tif`](output/vegetation_mask_pred.tif) for a sample exported vegetation mask GeoTIFF.
