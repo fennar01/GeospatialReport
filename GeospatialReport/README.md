@@ -149,4 +149,12 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 ## Contact
 
-For questions, feedback, or collaboration, please open an issue on GitHub or contact Fennar Ralston via the email address listed in the repository profile. 
+For questions, feedback, or collaboration, please open an issue on GitHub or contact Fennar Ralston via the email address listed in the repository profile.
+
+## Changelog
+
+- Batch processing script and CLI options added
+- Export formats: GeoTIFF, GeoJSON, Shapefile now supported
+- U-Net deep learning model roadmap and scaffolding added
+- CI/CD (GitHub Actions) disabled; tests must be run locally
+- Documentation and contribution guidelines improved 
