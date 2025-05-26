@@ -79,6 +79,16 @@ Once implemented, you will be able to:
 
 Watch this repository for updates as U-Net support is added!
 
+## Automated Testing
+
+Automated tests are provided for core preprocessing functions (NDVI, cloud masking). Additional tests for batch processing, export formats, and model inference are planned. All tests can be run with:
+
+```bash
+pytest
+```
+
+Tests are automatically run in GitHub Actions CI on every push and pull request.
+
 ## Example Output
 See [`output/sample_output_map.html`](output/sample_output_map.html) for a sample interactive map. 
 See [`output/vegetation_mask_pred.tif`](output/vegetation_mask_pred.tif) for a sample exported vegetation mask GeoTIFF.
