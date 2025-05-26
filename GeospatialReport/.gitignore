@@ -1,0 +1,15 @@
+# Ignore data files
+data/*
+!data/README.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Output files
+output/*
+!output/sample_output_map.html 

@@ -1,0 +1,1 @@
+Please download Sentinel-2 sample tile from the Copernicus Open Access Hub (https://scihub.copernicus.eu/) or AWS Open Data Registry (https://registry.opendata.aws/sentinel-2/). Do not place raw data in this repository. 
