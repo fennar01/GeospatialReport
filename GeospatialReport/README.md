@@ -52,7 +52,7 @@ To process all Sentinel-2 tiles in the `data/` directory, use the batch processi
 python src/batch_process.py
 ```
 
-This will automatically find all tiles with the required bands, run the pipeline, and export vegetation masks to the `output/` directory with tile-specific filenames.
+This will automatically find all tiles with the required bands, run the pipeline, and export vegetation masks to the `output/` directory with tile-specific filenames. Errors and progress are logged to `batch_process.log`, and a summary is printed at the end.
 
 ## Export Formats
 
