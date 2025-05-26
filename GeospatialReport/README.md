@@ -1,3 +1,5 @@
+An open-source pipeline for Sentinel-2 geospatial machine learning: from raw satellite imagery to model predictions and interactive maps. Supports batch and notebook workflows, multiple export formats, and both classical ML and deep learning (U-Net, coming soon).
+
 # Sentinel-2 Plant Detection using U-Net
 
 ## Objective
