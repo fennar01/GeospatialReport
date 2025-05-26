@@ -7,4 +7,5 @@ tensorflow
 folium
 geopandas
 joblib
-pytest 
+pytest
+requests 
