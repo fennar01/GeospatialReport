@@ -4,6 +4,7 @@ rasterio
 matplotlib
 scikit-learn
 tensorflow
+keras
 folium
 geopandas
 joblib
