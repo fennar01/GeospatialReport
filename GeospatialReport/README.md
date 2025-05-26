@@ -171,4 +171,14 @@ A: Place your Sentinel-2 bands in the `data/` directory (or specify with `--data
 A: Yes! You can adapt the pipeline and model for other segmentation tasks by providing appropriate training data and labels.
 
 **Q: How do I contribute or report a bug?**
-A: Open an issue or pull request on GitHub. See the "How to Contribute" section for details. 
+A: Open an issue or pull request on GitHub. See the "How to Contribute" section for details.
+
+## Related Projects & Resources
+
+- [Sentinel Hub](https://www.sentinel-hub.com/): Cloud API and EO Browser for Sentinel data
+- [Copernicus Open Access Hub](https://scihub.copernicus.eu/): Official Sentinel-2 data portal
+- [AWS Open Data Registry: Sentinel-2](https://registry.opendata.aws/sentinel-2/)
+- [Rasterio](https://rasterio.readthedocs.io/): Python library for raster data
+- [Geopandas](https://geopandas.org/): Python library for geospatial vector data
+- [Folium](https://python-visualization.github.io/folium/): Interactive maps in Python
+- [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597) 
